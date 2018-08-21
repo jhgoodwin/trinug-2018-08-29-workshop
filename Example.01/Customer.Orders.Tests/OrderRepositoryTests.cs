@@ -22,5 +22,29 @@ namespace Customer.Orders.Tests
             order.OrderDate.Should().Be(expectedOrderDate);
             order.Items.Count.Should().Be(expectedOrderItemCount);
         }
+        
+        [Fact]
+        public void OrderRepository_GetOrder_MissingOrder()
+        {
+            var customerNumber = 5;
+            var customerOrders = ResourceHelper.ReadTestObject<IDictionary<Guid, Order>>(
+                $"Customers._{customerNumber}.Orders");
+            var repository = new OrderRepository(customerOrders);
+            var orderId = Guid.Parse("b7cdfb82-f28f-4c26-9d31-05f03b4cb6be");
+            var order = repository.LoadOrder(orderId);
+            
+            Assert.True(false, "Customer tried to load missing order on their portable sales device");
+        }
+        
+        [Fact]
+        public void OrderRepository_GetOrder_Customer()
+        {
+            var customerNumber = 6;
+            var customerOrders = ResourceHelper.ReadTestObject<IDictionary<Guid, Order>>(
+                $"Customers._{customerNumber}.Orders");
+            var repository = new OrderRepository(customerOrders);
+            
+            Assert.True(false, "Customer tried to load missing customer on their portable sales device");
+        }
     }
 }
