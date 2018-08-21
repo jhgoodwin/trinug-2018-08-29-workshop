@@ -37,7 +37,7 @@ namespace Customer.Orders.Tests
         }
         
         [Fact]
-        public void OrderRepository_GetOrder_Customer()
+        public void OrderRepository_GetOrder_MissingCustomer()
         {
             var customerNumber = 6;
             var customerOrders = ResourceHelper.ReadTestObject<IDictionary<Guid, Order>>(
