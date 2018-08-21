@@ -1,9 +1,8 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Reflection;
 using Newtonsoft.Json;
 
-namespace Customer.Data.Tests
+namespace Customer.Orders.Tests
 {
     public class ResourceHelper
     {

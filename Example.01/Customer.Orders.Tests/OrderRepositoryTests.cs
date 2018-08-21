@@ -1,10 +1,9 @@
 using System;
 using System.Collections.Generic;
 using FluentAssertions;
-using FluentAssertions.Extensions;
 using Xunit;
 
-namespace Customer.Data.Tests
+namespace Customer.Orders.Tests
 {
     public class OrderRepositoryTests
     {

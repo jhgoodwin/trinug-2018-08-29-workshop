@@ -1,4 +1,4 @@
-namespace Customer.Data
+namespace Customer.Orders
 {
     public class OrderItem
     {

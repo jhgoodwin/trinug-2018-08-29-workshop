@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Data", "Customer.Data\Customer.Data.csproj", "{D475A30C-E1A3-4DF7-9C30-BB4E65E6F5E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Orders", "Customer.Orders\Customer.Orders.csproj", "{D475A30C-E1A3-4DF7-9C30-BB4E65E6F5E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Data.Tests", "Customer.Data.Tests\Customer.Data.Tests.csproj", "{2BD8818C-B537-4C5A-B640-7D21AFE8D3D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Orders.Tests", "Customer.Orders.Tests\Customer.Orders.Tests.csproj", "{2BD8818C-B537-4C5A-B640-7D21AFE8D3D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
