@@ -17,7 +17,7 @@ In this workshop, we will explore together some of the common ways that software
   
 ## Example.01
 
-* Open Customer.Orders.sln
-* Run the unit tests in Customer.Orders.Tests
+* Open Users.Roles.sln
+* Run the unit tests in User.Roles.Tests
 * The presenter will guide us through
 
