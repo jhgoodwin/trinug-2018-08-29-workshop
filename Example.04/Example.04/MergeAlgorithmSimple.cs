@@ -38,9 +38,20 @@ namespace Example._04
 
             while (!left.empty() || !right.empty())
             {
-                Queue min = left.empty() ? right
-                                         : (right.empty() || left.top() < right.top()) ? left
-                                                                                       : right;
+                Queue min;
+                if (!left.empty() && !right.empty())
+                {
+                    min = left.top() < right.top() ? left: right;
+                }
+                else if (!left.empty())
+                {
+                    min = left;
+                }
+                else
+                {
+                    min = right;
+                }
+
                 ret.push(min.pop());
             }
 
