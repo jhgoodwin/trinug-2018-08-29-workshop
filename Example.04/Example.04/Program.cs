@@ -33,23 +33,9 @@ namespace Example._04
             Console.WriteLine(ArrayToString(sorted));
         }
 
-        public static string ArrayToString(int[] input)
+        public static string ArrayToString(int[] ints)
         {
-            string result = String.Empty;
-
-            for (int i = 0; i < input.Length; i++)
-            {
-                result = result + input[i] + " ";
-            }
-            if (input.Length == 0)
-            {
-                result = "Array is empty.";
-                return result;
-            }
-            else
-            {
-                return result;
-            }
+            return string.Join(", ", ints.Select(x => x.ToString()).ToArray());
         }
     }
 }
