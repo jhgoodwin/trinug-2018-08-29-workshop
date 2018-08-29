@@ -22,10 +22,21 @@ In this workshop, we will explore together some of the common ways that software
 * Run the unit tests in Customer.Orders.Tests
 * The presenter will guide us through
 
-## Example.03
+## Example.02
 
 * Open folder Example.02
+* Open Example.02.sln
+* The presenter will guide us through
+
+## Example.03
+
+* Open folder Example.03
 * Open Users.Roles.sln
 * Run the unit tests in User.Roles.Tests
 * The presenter will guide us through
 
+## Example.04
+
+* Open folder Example.04
+* Open Example.04.sln
+* The presenter will guide us through
